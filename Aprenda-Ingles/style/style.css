@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(rgba(0, 0, 0, .50),rgb(0, 0, 0, .50)100%),url('../imgs/rick and morty temporada 5_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+   
+   
+    
+}
+header#cabecalho-principal {
+    background-color:#000000 ;
+    width: 100%;
+    display: flex;
+    height: 40px;
+    border: rgba(0, 0, 0, .50);
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#pontuacao-jogo {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #22ee33;
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
+    padding: 5px 30px;
+    height: 32px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 25px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+#pontuacao-jogo img{
+    margin-right:15px ;
+
+}
+#nome-do-jogo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 16.5px;
+    margin-right: 20px;
+}
+section#corpo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+section#corpo div#direita{
+
+    width: 50%;
+    padding: 50px;
+}
+
+div#esquerda{
+    font-family: 'Sarala', sans-serif;
+    padding: 100px;
+}
+section#corpo div#esquerda{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+  
+
+    align-items: center;
+
+}
+section#corpo div#esquerda div#cor-atual {
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+
+    border: 6px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+section#corpo div#esquerda button#btn-responder {
+    background-color: transparent;
+    color: white;
+    padding: 15px 45px;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight:bold;
+    margin-top: 10px;
+}
+
+div#container footer#rodape {
+    background-color: rgb(26, 26, 32);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+
+}
